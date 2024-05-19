@@ -27,6 +27,10 @@
         float: right;
         width: 70%;
     }
+
+    div.campo > input{
+        transform: translateY(-12px);
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -58,5 +62,9 @@
     div#formulario > p{
         font-size: 1em;
         margin: 20px 0px;
+    }
+
+    div.campo > input{
+        transform: translateY(-12px);
     }
 }
